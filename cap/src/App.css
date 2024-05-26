@@ -1,0 +1,20 @@
+/* ตั้งค่าสไตล์สำหรับ navbar */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.nav-link {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #5b2c2c;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #4a1e1e;
+}
